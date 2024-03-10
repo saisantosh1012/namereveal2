@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2f66e8;
+    background-image: url('1.jpg'); /* Default background image */
+    background-clip: url();
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.8s; /* Smooth transition for background image change */
+  }
+  
+  .revealed {
+    background-image: url('2.jpg'); /* Background image after reveal */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
